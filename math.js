@@ -31,3 +31,11 @@ function mul(a,b){
 function div(a,b){
     return a/b;
 }
+
+function pow(a,b){
+    let product=a;
+    for(let i=0;i<b;i++){
+        product=product*product;
+    }
+    return product;
+}
